@@ -82,7 +82,7 @@ class Code128Renderer:
                 self.img = img
                 self.current_x = quiet_width
                 if show_label:
-                    self.symbol_top = quiet_width / 2
+                    self.symbol_top = int(quiet_width / 2)
                 else:
                     self.symbol_top = 0
                 self.bar_height = bar_height
