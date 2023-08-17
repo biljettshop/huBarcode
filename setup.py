@@ -72,7 +72,7 @@ if len(sys.argv) > 1 and sys.argv[1] == 'bdist_wininst':
 
 setup(
     name='huBarcode',
-    version='1.0.2',
+    version='1.0.3',
     url='http://github.com/mdornseif/huBarcode',
     maintainer='Maximillian Dornseif',
     maintainer_email='md@hudora.de',
